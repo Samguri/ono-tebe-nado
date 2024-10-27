@@ -7,7 +7,7 @@ https://github.com/Samguri/ono-tebe-nado
 - [Скриншот](#скриншот)
 - [Макет](#макет)
 - [Автор](#автор)
-- 
+
 ### Скриншот
 
 ![](screenshot.png)
