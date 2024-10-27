@@ -45,9 +45,10 @@ main {
 
 .header__logo {
     display: block;
+    justify-content: center;
     justify-self: center;
-    align-self: center;
     width: 140px;
+    margin-right: 120px;
 }
 
 .header__logo-image {
@@ -90,8 +91,7 @@ main {
     z-index: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.6000000238418579;
-    background-color: #000000;
+    background-color: rgb(0 0 0 / 0.6);
 }
 
 .cover__title {
@@ -110,15 +110,14 @@ main {
 
 .aligned-text {
     display: block;
+    line-height: 1;
 }
 
 .aligned-text_center {
-    line-height: 1;
     text-align: center;
 }
 
 .aligned-text_right {
-    line-height: 1;
     text-align: right;
 }
 
@@ -167,11 +166,11 @@ main {
 }
 
 .lots {
-    padding: 0 50px;
+    padding: 0 10px;
 }
 
 .lots__heading {
-    padding: 0 0 30px 40px;
+    padding: 25px 35px ;
     font-weight: bold;
     font-size: 40px;
     line-height: 1;
@@ -203,24 +202,20 @@ main {
     width: auto;
     height: 100%;
     padding: 50px 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .card__title {
@@ -244,7 +239,7 @@ main {
 
 .lots__look-more-link {
     display: block;
-    margin: 30px 0 0 40px;
+    margin: 30px 0 0 35px;
     font-size: 20px;
     text-decoration-line: underline;
     text-underline-position: under;
@@ -254,7 +249,7 @@ main {
 .about {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 24px;
+    column-gap: 43px;
     padding: 0 50px;
 }
 
@@ -302,7 +297,7 @@ main {
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 180px 50px 80px;
+    padding: 186px 50px 80px;
 }
 
 .footer__social-icon {
@@ -320,7 +315,6 @@ main {
     line-height: normal;
     text-underline-position: under;
 }
-
 .footer__menu-link_active {
     text-decoration: none;
 }
