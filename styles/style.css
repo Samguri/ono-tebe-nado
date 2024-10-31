@@ -57,11 +57,8 @@ main {
 
 .address {
     font-style: inherit;
-}
-
-.header__address {
     justify-self: center;
-    font-style: inherit;
+    margin-right: 13px;
 }
 
 .address__item {
